@@ -1,0 +1,55 @@
+{
+    "products": [
+      {
+        "name": "Whole Wheat Sandwich Bread",
+        "description": "A loaf of whole wheat sandwich bread perfect for sandwiches.",
+        "price": 18.00,
+        "stock_quantity": 150,
+        "image_url": "images/product-thumb-1.png",
+        "category": "Bakery",
+        "created_at": "2024-10-05",
+        "category_id": 2
+      },
+      {
+        "name": "Whole Grain Oatmeal",
+        "description": "Healthy whole grain oatmeal with no added sugar.",
+        "price": 50.00,
+        "stock_quantity": 200,
+        "image_url": "images/product-thumb-2.png",
+        "category": "Grains",
+        "created_at": "2024-10-05",
+        "category_id": 2
+      },
+      {
+        "name": "Sharp Cheddar Cheese Block",
+        "description": "A block of sharp cheddar cheese, aged for 12 months.",
+        "price": 12.00,
+        "stock_quantity": 100,
+        "image_url": "images/product-thumb-3.png",
+        "category": "Dairy",
+        "created_at": "2024-10-05",
+        "category_id": 3
+      },
+      {
+        "name": "Organic Baby Spinach",
+        "description": "Fresh organic baby spinach leaves for salads and cooking.",
+        "price": 18.00,
+        "stock_quantity": 120,
+        "image_url": "images/product-thumb-4.png",
+        "category": "Vegetables",
+        "created_at": "2024-10-05",
+        "category_id": 7
+      },
+      {
+        "name": "Fresh Salmon",
+        "description": "Fresh salmon fillet, caught daily from sustainable fisheries.",
+        "price": 24.00,
+        "stock_quantity": 80,
+        "image_url": "images/product-thumb-6.png",
+        "category": "Seafood",
+        "created_at": "2024-10-05",
+        "category_id": 7
+      }
+    ]
+  }
+  
