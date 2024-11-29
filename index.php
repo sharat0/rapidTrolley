@@ -282,7 +282,6 @@ include('./essentials/_config.php');
       <div class="row">
         <div class="col-lg-6 pt-5 mt-5">
           <h2 class="display-1 ls-1"><span class="fw-bold text-primary">Grocery</span> at your <span class="fw-bold">Doorsteps</span></h2>
-          <p class="fs-4">Dignissim massa diam elementum.</p>
           <div class="d-flex gap-3">
             <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Start Shopping</a>
             <a href="#" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</a>
@@ -321,61 +320,6 @@ include('./essentials/_config.php');
           </div>
         </div>
       </div>
-
-      <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-3 g-0 justify-content-center">
-        <div class="col">
-          <div class="card border-0 bg-primary rounded-0 p-4 text-light">
-            <div class="row">
-              <div class="col-md-3 text-center">
-                <svg width="60" height="60">
-                  <use xlink:href="#fresh"></use>
-                </svg>
-              </div>
-              <div class="col-md-9">
-                <div class="card-body p-0">
-                  <h5 class="text-light">Fresh from farm</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card border-0 bg-secondary rounded-0 p-4 text-light">
-            <div class="row">
-              <div class="col-md-3 text-center">
-                <svg width="60" height="60">
-                  <use xlink:href="#organic"></use>
-                </svg>
-              </div>
-              <div class="col-md-9">
-                <div class="card-body p-0">
-                  <h5 class="text-light">100% Organic</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card border-0 bg-danger rounded-0 p-4 text-light">
-            <div class="row">
-              <div class="col-md-3 text-center">
-                <svg width="60" height="60">
-                  <use xlink:href="#delivery"></use>
-                </svg>
-              </div>
-              <div class="col-md-9">
-                <div class="card-body p-0">
-                  <h5 class="text-light">Free delivery</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -475,7 +419,7 @@ include('./essentials/_config.php');
             <span>(222)</span>
           </div>
           <div class="d-flex justify-content-center align-items-center gap-2">
-            <del>$24.00</del>
+            <del>₹24.00</del>
             <span class="text-dark fw-semibold">' . $row['price'] . '</span>
             <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
           </div>
@@ -515,7 +459,7 @@ include('./essentials/_config.php');
         <div class="container">
           <div class="row justify-content-center align-items-center">
             <div class="col-md-4">
-              <h2 class="mt-5">Download Organic App</h2>
+              <h2 class="mt-5">Download Rapid Panda</h2>
               <p>Online Orders made easy, fast and reliable</p>
               <div class="d-flex gap-2 flex-wrap mb-5">
                 <a href="#" title="App store"><img src="images/img-app-store.png" alt="app-store"></a>
@@ -555,78 +499,64 @@ include('./essentials/_config.php');
       <a href="#" class="btn btn-warning me-2 mb-2">Chicken meatballs</a>
     </div>
   </section>
-
   <section class="py-5">
-    <div class="container-lg">
-      <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-5">
-        <div class="col">
-          <div class="card mb-3 border border-dark-subtle p-3">
-            <div class="text-dark mb-3">
-              <svg width="32" height="32">
-                <use xlink:href="#package"></use>
-              </svg>
-            </div>
-            <div class="card-body p-0">
-              <h5>Free delivery</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-            </div>
+  <div class="container-lg">
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4">
+      <div class="col">
+        <div class="card mb-3 border border-dark-subtle p-3">
+          <div class="text-dark mb-3">
+            <svg width="32" height="32">
+              <use xlink:href="#secure"></use>
+            </svg>
+          </div>
+          <div class="card-body p-0">
+            <h5>100% secure payment</h5>
+            <p class="card-text">Strong encryptions behind.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card mb-3 border border-dark-subtle p-3">
-            <div class="text-dark mb-3">
-              <svg width="32" height="32">
-                <use xlink:href="#secure"></use>
-              </svg>
-            </div>
-            <div class="card-body p-0">
-              <h5>100% secure payment</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3 border border-dark-subtle p-3">
+          <div class="text-dark mb-3">
+            <svg width="32" height="32">
+              <use xlink:href="#quality"></use>
+            </svg>
+          </div>
+          <div class="card-body p-0">
+            <h5>Quality guarantee</h5>
+            <p class="card-text">We ensure premium quality in all our products.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card mb-3 border border-dark-subtle p-3">
-            <div class="text-dark mb-3">
-              <svg width="32" height="32">
-                <use xlink:href="#quality"></use>
-              </svg>
-            </div>
-            <div class="card-body p-0">
-              <h5>Quality guarantee</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3 border border-dark-subtle p-3">
+          <div class="text-dark mb-3">
+            <svg width="32" height="32">
+              <use xlink:href="#savings"></use>
+            </svg>
+          </div>
+          <div class="card-body p-0">
+            <h5>Guaranteed savings</h5>
+            <p class="card-text">Save more with our exclusive deals.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card mb-3 border border-dark-subtle p-3">
-            <div class="text-dark mb-3">
-              <svg width="32" height="32">
-                <use xlink:href="#savings"></use>
-              </svg>
-            </div>
-            <div class="card-body p-0">
-              <h5>guaranteed savings</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3 border border-dark-subtle p-3">
+          <div class="text-dark mb-3">
+            <svg width="32" height="32">
+              <use xlink:href="#offers"></use>
+            </svg>
           </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 border border-dark-subtle p-3">
-            <div class="text-dark mb-3">
-              <svg width="32" height="32">
-                <use xlink:href="#offers"></use>
-              </svg>
-            </div>
-            <div class="card-body p-0">
-              <h5>Daily offers</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-            </div>
+          <div class="card-body p-0">
+            <h5>Regular offers</h5>
+            <p class="card-text">Enjoy amazing discounts and offers all year round.</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <footer class="py-5">
     <div class="container-lg">
@@ -822,10 +752,10 @@ function updateCartUI(cart) {
             cartList.innerHTML += `
                 <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
-                        <h6 class="my-0">${name}</h6>
-                        <small class="text-body-secondary">${description}</small>
+                        <h6 class="my-0">₹{name}</h6>
+                        <small class="text-body-secondary">₹{description}</small>
                     </div>
-                    <span class="text-body-secondary">${price}</span>
+                    <span class="text-body-secondary">₹{price}</span>
                     <button class="btn btn-danger" onclick="updateCart('remove', '${item.product_id}')">Remove</button>
                 </li>
             `;
