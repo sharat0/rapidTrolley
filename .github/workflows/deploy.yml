@@ -1,0 +1,29 @@
+name: Deploy to Hosting
+
+on:
+  push:
+    branches:
+      - main  # Deploy only on pushes to the main branch (modify if needed)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install LFTP
+        run: sudo apt-get install -y lftp
+
+      - name: Deploy to InfinityFree via FTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -c "
+          open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
+          mirror -R . /htdocs;  # Uploads files from the root directory to 'htdocs' on the server
+          bye
+          "
