@@ -5,7 +5,7 @@ include('./essentials/_config.php');
 <html lang="en">
 
 <head>
-  <title>Rapid Trollie - Grocery & Essentials delivery</title>
+  <title>Rapid Panda - Grocery & Essentials delivery</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -634,7 +634,7 @@ include('./essentials/_config.php');
 
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="footer-menu">
-            <img src="images/logo.svg" width="240" height="70" alt="logo">
+            <img src="images/logo.png" width="240" height="70" alt="logo">
             <div class="social-links mt-3">
               <ul class="d-flex list-unstyled gap-2">
                 <li>
@@ -770,7 +770,7 @@ include('./essentials/_config.php');
     <div class="container-lg">
       <div class="row">
         <div class="col-md-6 copyright">
-          <p>© 2024 Rapid Trollie. All rights reserved.</p>
+          <p>© 2024 Rapid Panda. All rights reserved.</p>
         </div>
         <div class="col-md-6 credit-link text-start text-md-end">
           <p>A product by <a href="https://festivelearn.com/">FestiveLearn</a> Distributed By <a href="https://festivelearn.com.com">FestiveLearn</a> </p>

@@ -1,0 +1,19 @@
+{
+    "name": "sharat/rapid-panda",
+    "autoload": {
+        "psr-4": {
+            "Sharat\\RapidPanda\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sharat0",
+            "email": "20cs1a1006@kristujayanti.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.16.5",
+        "doctrine/dbal": "^4.2",
+        "doctrine/migrations": "^3.8"
+    }
+}
