@@ -1,4 +1,4 @@
-This repository is for Rapid Trolley website built using php & MySql Database.
+This repository is for Rapid Panda website built using php & MySql Database.
 Get the configration file from admin.
 Install Composer after cloning the repository to get all installed packages.
 
